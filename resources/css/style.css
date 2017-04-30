@@ -9,7 +9,7 @@ html {
 }
 
 .container {
-  width: 960px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -19,6 +19,14 @@ html {
 
 .mobile {
   display: none;
+}
+
+body {
+  background-color: rgb(244, 235, 237);
+}
+
+a {
+  text-decoration: none;
 }
 
 /*Header and nav styles*/
@@ -33,6 +41,7 @@ header {
   position: fixed;
   z-index: 1;
   background-color: rgb(244, 235, 237);
+  border-bottom: 1px solid rgb(56, 56, 56)
 }
 
 .logo {
@@ -55,7 +64,13 @@ header {
 
 .menu {
   align-items: center;
-  margin-right: 1rem;
+  margin-right: 1.5rem;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .menu ul li {
@@ -66,9 +81,8 @@ header {
 }
 
 .menu ul li a {
-  text-decoration: none;
-  color: black;
-  padding: 1.5rem 0.5rem;
+  color: rgb(56, 56, 56);
+  padding: 1.46rem 0.5rem;
 }
 
 .menu ul li a:hover {
@@ -80,5 +94,64 @@ header {
 
 .menu ul li a:active {
   background-color: rgb(5, 117, 178);
+  transition: none;
+}
+
+/* Main Body Styles */
+.banner {
+  background-color: rgb(56, 56, 56);
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.banner img {
+  width: 60%;
+  height: 60%;
+  margin: 6rem 2.5rem 2rem 1.5rem;
+}
+
+.bannerText {
+  line-height: 1.2;
+  align-items: flex-start;;
+  flex-direction: column;
+  justify-content: center;
+  width: 30rem;
+}
+
+.bannerText h2 {
+  font-family: "Arvo", serif;
+  color: rgb(244, 235, 217);
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.bannerText p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.7rem;
+  color: rgb(244, 235, 217);
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.bannerText .btn {
+  font-family: "Roboto", sans-serif;
+  padding: 0.5rem;
+  background-color: rgb(5, 142, 217);
+  color: rgb(244, 235, 217);
+  text-align: center;
+  margin-top: 1.5rem;
+  width: 100%;
+}
+
+.bannerText .btn:hover {
+  background-color: rgb(3, 78, 119);
+  color: rgb(221, 213, 197);
+  transition: background-color 500ms linear,
+    color 500ms linear;
+}
+
+.bannerText .btn:active {
+  background-color: rgb(221, 213, 197);
+  color: rgb(3, 78, 119);
   transition: none;
 }
