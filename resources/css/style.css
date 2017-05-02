@@ -186,6 +186,7 @@ header {
   padding-bottom: 1.5rem;
   font-size: 2rem;
   font-weight: bold;
+  letter-spacing: 0.05rem;
 }
 
 .infoLeft p {
