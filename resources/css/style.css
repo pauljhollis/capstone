@@ -105,7 +105,6 @@ header {
 /* Main Body Styles */
 .banner {
   background-color: rgb(56, 56, 56);
-  flex-wrap: wrap;
 }
 
 .bannerImg {
