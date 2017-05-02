@@ -186,7 +186,6 @@ header {
   padding-bottom: 1.5rem;
   font-size: 2rem;
   font-weight: bold;
-  letter-spacing: 0.1rem;
 }
 
 .infoLeft p {
@@ -204,7 +203,6 @@ header {
 .infoRight {
   flex-direction: column;
   margin-top: 1rem;
-  margin-left: 1rem;
 }
 
 .infoImg {
@@ -215,8 +213,9 @@ header {
 
 .infoBox {
   width: 26.4375rem;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
 }
 
 .infoText {
