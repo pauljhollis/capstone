@@ -282,6 +282,7 @@ header {
 
 .courseBox:hover {
   transform: scale(1.025);
+  box-shadow: -6px 5px 9px 0px rgb(11, 11, 11);
 }
 
 .courseBox img {
