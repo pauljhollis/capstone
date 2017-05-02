@@ -29,6 +29,11 @@ a {
   text-decoration: none;
 }
 
+h2, h3, h4 {
+  font-family: "Arvo", serif;
+  color: rgb(244, 235, 217);
+}
+
 /*Header and nav styles*/
 
 nav {
@@ -100,27 +105,28 @@ header {
 /* Main Body Styles */
 .banner {
   background-color: rgb(56, 56, 56);
-  width: 100%;
   flex-wrap: wrap;
 }
 
-.banner img {
+.bannerImg {
   width: 60%;
-  height: 60%;
   margin: 6rem 2.5rem 2rem 1.5rem;
+}
+
+.bannerImg img {
+  max-width: 100%;
+  height: auto;
 }
 
 .bannerText {
   line-height: 1.2;
-  align-items: flex-start;;
+  /*align-items: flex-start;*/
   flex-direction: column;
   justify-content: center;
   width: 30rem;
 }
 
 .bannerText h2 {
-  font-family: "Arvo", serif;
-  color: rgb(244, 235, 217);
   font-size: 3rem;
   font-weight: bold;
 }
@@ -140,7 +146,7 @@ header {
   color: rgb(244, 235, 217);
   text-align: center;
   margin-top: 1.5rem;
-  width: 100%;
+  width: 88%;
 }
 
 .bannerText .btn:hover {
@@ -151,7 +157,97 @@ header {
 }
 
 .bannerText .btn:active {
-  background-color: rgb(221, 213, 197);
-  color: rgb(3, 78, 119);
+  background-color: rgb(5, 142, 217);
+  color: rgb(244, 235, 217);
   transition: none;
+}
+
+.info {
+  background-color: rgb(110, 110, 110);
+}
+
+.infoLeft {
+  flex-direction: column;
+  height: auto;
+  margin: 0rem 0rem 0rem 1.5rem;
+  width: 61.5%;
+  border-right: 1px solid rgb(56, 56, 56);
+  padding-right: 1.5rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.infoLeft img {
+  max-width: 100%;
+  height: auto;
+}
+
+.infoLeft h3 {
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.infoLeft p {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.75rem;
+  color: rgb(11, 11, 11);
+}
+
+.infoLeft .quote {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+}
+
+.infoRight {
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.infoImg {
+  width: 35%;
+  height: 100%;
+  margin-right: 1rem;
+}
+
+.infoBox {
+  width: 26.4375rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.infoText {
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  line-height: 1.3;
+}
+.infoText h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  align-self
+}
+
+.infoText p {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 1rem;
+  color: rgb(11, 11, 11);
+}
+
+.infoText a {
+  font-family: "Roboto", sans-serif;
+  color: rgb(0, 165, 255);
+}
+
+.infoText a:hover {
+  transition: font-size 100ms ease-in;
+  font-size: 1.1rem;
+}
+
+.infoBox:hover {
+  background-color: rgb(56, 56, 56);
 }
