@@ -251,3 +251,58 @@ header {
 .infoBox:hover {
   background-color: rgb(56, 56, 56);
 }
+
+/* Additional Info Styles */
+
+.courses {
+  background-color: rgb(56, 56, 56);
+  justify-content: center;
+}
+
+.course-info {
+  justify-content: space-between;;
+  width: 62.5rem;
+  flex-wrap: wrap;
+  padding-bottom: 1.5rem;
+}
+
+.courseHead {
+  font-size: 2rem;
+  padding: 2rem 0;
+  text-align: center;
+  background-color: rgb(56, 56, 56);
+}
+
+.courseBox {
+  width: 31.2%;
+  background-color: rgb(110, 110, 110);
+  margin-bottom: 1rem;
+  transition: all 100ms ease-in;
+}
+
+.courseBox:hover {
+  transform: scale(1.025);
+}
+
+.courseBox img {
+  width: 100%;
+  height: auto%;
+}
+
+.courseBox h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1rem 1rem;
+}
+
+.courseBox p {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.75rem;
+  color: rgb(11, 11, 11);
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+}
+
+.courseBox .courseDesc {
+  padding-bottom: 1.5rem;
+}
