@@ -307,3 +307,56 @@ header {
 .courseBox .courseDesc {
   padding-bottom: 1.5rem;
 }
+
+.thesisHead {
+  font-size: 2rem;
+  padding-top: 2rem;
+  text-align: center;
+  background-color: rgb(110, 110, 110);
+}
+
+.thesis {
+  background-color: rgb(110, 110, 110);
+}
+
+.thesis .infoLeft {
+  border: none;
+}
+
+.thesis .infoLeft .quote {
+  padding-bottom: 0;
+}
+
+.thesis .infoLeft video {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  height: 4rem;
+  justify-content: space-between;
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.75rem;
+  background-color: rgb(182, 182, 182);
+}
+
+footer a {
+  font-family: "Roboto", sans-serif;
+  color: rgb(0, 165, 255);
+}
+
+footer ul {
+  list-style: none;
+  padding-right: 0.75rem;
+}
+
+footer ul li {
+  display: inline-flex;
+  padding-right: 0.75rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
