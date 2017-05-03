@@ -34,6 +34,14 @@ h2, h3, h4 {
   color: rgb(244, 235, 217);
 }
 
+.mobileImg {
+  display: none;
+}
+
+.mobileCourses {
+  display: none;
+}
+
 /*Header and nav styles*/
 
 nav {
@@ -185,7 +193,6 @@ header {
   padding-top: 2rem;
   padding-bottom: 1.5rem;
   font-size: 2rem;
-  font-weight: bold;
 }
 
 .infoLeft p {
@@ -227,7 +234,6 @@ header {
 }
 .infoText h3 {
   font-size: 1.3rem;
-  font-weight: bold;
   margin-bottom: 0.5rem;
   align-self
 }
@@ -292,7 +298,6 @@ header {
 
 .courseBox h4 {
   font-size: 1.2rem;
-  font-weight: bold;
   padding: 1rem 1rem;
 }
 
@@ -359,4 +364,163 @@ footer ul li {
 
 footer a:hover {
   text-decoration: underline;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 1020px){
+
+  .logo {
+    display: none;
+  }
+
+  .mobileHide {
+    display: none;
+  }
+
+  .mobile {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .mobile ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .mobile ul li img {
+    width: 2.5rem;
+    height: auto;
+  }
+
+}
+
+@media only screen and (min-width: 400px) and (max-width: 900px) {
+
+  h2, h3, h4 {
+    font-family: "Roboto", sans-serif;
+  }
+
+  .banner {
+    flex-direction: column;
+  }
+
+  .bannerImg {
+    width: 100%;
+    padding: 0;
+    margin: 4rem 0 0 0;
+  }
+
+  .bannerText {
+    width: 100%;
+    align-items: center;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .infoLeft {
+  display: none;
+  }
+
+  .infoRight {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .infoBox {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+
+  .infoBox:hover {
+    background-color: rgb(110, 110, 110);
+  }
+
+  .infoImg {
+    display: none;
+  }
+
+  .mobileImg {
+    display: list-item;
+    width: 100%;
+    height: auto;
+  }
+
+  .infoText {
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
+
+  .infoBox:nth-child(3n+0){
+    margin-bottom: 1rem;
+  }
+
+  .infoText a:hover {
+    transition: font-size 100ms ease-in;
+    font-size: 1rem;
+  }
+
+  .course-info {
+    display: none;
+  }
+
+  .courseHead {
+    margin-bottom: -1rem;
+  }
+
+  .mobileCourses {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .mobileCourse {
+    background-color: rgb(110, 110, 110);
+    margin-bottom: 0.5rem;
+  }
+
+  .mobileCourse:nth-child(6n+0) {
+    margin-bottom: 2rem;
+  }
+
+  .mobileCourse h3 {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+
+  .thesis .infoLeft {
+    display: flex;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .thesis .infoRight {
+    display: none;
+  }
+
+  .thesis .infoLeft .quote {
+    display: none;
+  }
+
+  .thesis .infoLeft h3 {
+    display: none;
+  }
+
+  .thesis video {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
 }
