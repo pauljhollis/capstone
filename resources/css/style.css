@@ -121,7 +121,7 @@ header {
 }
 
 .bannerImg img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -185,7 +185,7 @@ header {
 }
 
 .infoLeft img {
-  max-width: 100%;
+  mwidth: 100%;
   height: auto;
 }
 
